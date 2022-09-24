@@ -53,10 +53,9 @@ body{
      }
      .about{
         .about-info{
-            padding-right: 3rem;
             h1{
                 max-width: 400px;
-                font-size: 30px;
+                font-size: 23px;
                 line-height: 1.3;
             }
             p{
@@ -71,6 +70,14 @@ body{
                 }
                 p{
                     font-size: 16px;
+                }
+            }
+            @media (min-width:768px ) {
+                padding-right: 3rem;
+            }
+            @media (min-width:1050px) {
+                h1{
+                    font-size: 30px;
                 }
             }
         }
@@ -125,6 +132,9 @@ footer{
         text-decoration: none;
         color: rgba(255, 255, 255, 0.785);
         margin: .5rem 0;
+        &:hover{
+            text-decoration: underline;
+        }
     }
     .social-links a{
         position: relative;
@@ -136,6 +146,10 @@ footer{
         height: 40px !important;
         i{
             position: absolute;
+        }
+        &:hover{
+            color: $pink;
+            border: 1px solid $pink;
         }
     }
     span{
