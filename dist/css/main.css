@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+body {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif !important;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  background-color: hsl(193deg, 100%, 96%);
+  background-image: url(/images/bg-hero-mobile.svg);
+  background-size: cover;
+  margin-bottom: 3rem;
+}
+@media (min-width: 800px) {
+  .wrapper {
+    background-image: url(/images/bg-hero-desktop.svg);
+  }
+}
+.wrapper .page-header .header-page-logo {
+  min-width: 130px;
+}
+.wrapper .page-header .header-sub-btn {
+  border: none;
+  background-color: white;
+  font-weight: 600;
+  font-size: 13px;
+  min-width: 130px;
+  border-radius: 30px;
+  padding: 0.4em 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.wrapper .about h1 {
+  max-width: 400px;
+}
+.wrapper .about p {
+  max-width: 520px;
+}
+.wrapper .about button {
+  border: none;
+  background-color: hsl(322deg, 100%, 66%);
+  color: white;
+  border-radius: 30px;
+  font-size: 14px;
+  padding: 0.6em 0;
+  width: 100%;
+  max-width: 250px;
+}
+
+.benefits .card-item {
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.benefits .card-item h1 {
+  font-size: 25px;
+}
+.benefits .card-item p {
+  color: hsl(208deg, 11%, 55%);
+  font-size: 17px;
+  max-width: 460px;
+}
+.benefits .card-item img {
+  max-width: 500px;
+}
+@media (min-width: 1200px) {
+  .benefits .card-item h1 {
+    font-size: 35px;
+  }
+}
+.benefits .footer-subscription {
+  position: relative;
+  max-width: 500px;
+  background-color: white;
+  bottom: -6rem;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.benefits .footer-subscription button {
+  border: none;
+  background-color: hsl(322deg, 100%, 66%);
+  color: white;
+  border-radius: 30px;
+  font-size: 14px;
+  padding: 0.6em 0;
+  width: 100%;
+  max-width: 250px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+footer {
+  background-color: hsl(192deg, 100%, 9%);
+  color: rgba(255, 255, 255, 0.785);
+  padding-top: 8rem;
+}
+footer > div:not(.footer-logo) {
+  padding: 1.5rem 0;
+}
+footer .contact-info > div img {
+  margin-right: 1rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+footer .contact-info > div:nth-of-type(1) img {
+  margin-top: 0.3rem;
+}
+footer .contact-info .item {
+  margin-bottom: 1.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+footer .contact-info .item span {
+  max-width: 400px;
+}
+footer .contact-links a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.785);
+  margin: 0.5rem 0;
+}
+footer .social-links a {
+  position: relative;
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin: 0 0.3rem;
+  width: 40px !important;
+  height: 40px !important;
+}
+footer .social-links a i {
+  position: absolute;
+}
+footer span {
+  font-size: 15px;
+}/*# sourceMappingURL=main.css.map */
