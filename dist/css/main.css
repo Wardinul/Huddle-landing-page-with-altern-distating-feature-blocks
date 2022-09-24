@@ -44,7 +44,9 @@ body {
   min-width: 130px;
   border-radius: 30px;
   padding: 0.4em 0;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  box-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .wrapper .page-header .header-sub-btn:hover {
   color: hsl(208deg, 11%, 55%);
@@ -96,7 +98,9 @@ body {
 
 .benefits .card-item {
   border-radius: 15px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  box-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .benefits .card-item h1 {
   font-size: 25px;
@@ -127,7 +131,9 @@ body {
   background-color: white;
   bottom: -6rem;
   border-radius: 30px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  box-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .benefits .footer-subscription button {
   border: none;
@@ -138,7 +144,9 @@ body {
   width: 100%;
   max-width: 250px;
   padding: 0.7em 0;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  box-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .benefits .footer-subscription button:hover {
   opacity: 0.8;
