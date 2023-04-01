@@ -40,7 +40,7 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - [Bootstrap](https://getbootstrap.com/) - CSS Framework
-- [Sass](https://sass-lang.com/) - CSS extension language
+- SCSS
 
 ## Author
 
